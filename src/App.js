@@ -1,7 +1,18 @@
 import React from "react";
+import Review from "./Review";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <main>
+      <section className="container">
+        <div className="title">
+          <h2>our review</h2>
+          <div className="underline"></div>
+          <Review />
+        </div>
+      </section>
+    </main>
+  );
 };
 
 export default App;
